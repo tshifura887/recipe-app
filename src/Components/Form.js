@@ -34,7 +34,7 @@ export default function Form() {
                 <div className='form-select'>
                     <h4>Cuisine</h4>
                     <select onChange={cuisineStatusHandler}>
-                        <option>None Selected</option>
+                        <option>None</option>
                         <option value="American">American</option>
                         <option value="asian">Asian</option>
                         <option value="british">British</option>
@@ -59,7 +59,7 @@ export default function Form() {
                 <div className='form-select'>
                     <h4>Dish Type</h4>
                     <select onChange={dishStatusHandler}>
-                        <option>None Selected</option>
+                        <option>None</option>
                         <option value="breakfast">Alcohol Cocktail</option>
                         <option value="biscuits and cookies">Buscuits and Cookies</option>
                         <option value="bread">Bread</option>

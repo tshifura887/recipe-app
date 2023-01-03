@@ -27,3 +27,15 @@
     text-decoration: none;
     color: black;
 }
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+    .contact {
+        gap: 10px;
+        font-size: 14px;
+    }
+}

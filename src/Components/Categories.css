@@ -1,6 +1,6 @@
 .recipe {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 .recipe__category {
     

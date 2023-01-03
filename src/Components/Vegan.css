@@ -45,7 +45,7 @@
 }
 @media only screen and (max-width: 480px) {
     .content__wrapper {
-        margin: 50px 50px;
+        margin: 40px;
     }
     .content__wrapper .recipes {
         flex-wrap: wrap;

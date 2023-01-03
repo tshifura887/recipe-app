@@ -39,3 +39,15 @@ select {
   text-decoration: none;
   color: white;
 }
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+  .form-select {
+    padding: 0 12px;
+    width: auto;
+  }
+}

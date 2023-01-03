@@ -17,7 +17,7 @@
     "react-id-generator": "^3.0.2",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^4.0.3",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "sns-react-elastic-carousel": "^0.3.2",
@@ -30,12 +30,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -47,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^7.32.0"
   }
 }

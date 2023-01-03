@@ -37,4 +37,20 @@
     text-decoration: none;
     color: #52ab98;
 }
-
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+    .content__wrapper {
+        margin: 50px 50px;
+    }
+    .content__wrapper .recipes {
+        flex-wrap: wrap;
+    }
+    .recipes-item {
+        width: 11rem;
+    }
+}

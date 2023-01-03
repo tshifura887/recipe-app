@@ -24,7 +24,9 @@ export default function Searched() {
     }
     return (
         <div className='searched'>
-            {searchedRecipe.map((recipe) =>(
+            {  searchedRecipe.length === 0 ?(
+                <p>The recipe you searched for does not exist</p>
+            ) : searchedRecipe.map((recipe) =>(
                 <Link className='searched-recipe' to={`/recipe/${extractIdFromUri(recipe.recipe.uri)}`}>
                     <img src={recipe.recipe.image}/>
                     <h4>{recipe.recipe.label}</h4>

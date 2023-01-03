@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    padding: 50px;
 }
 .searched-recipe {
     text-decoration: none;
@@ -12,4 +13,22 @@
 }
 .searched-recipe img {
     border-radius: 15px;
+    max-width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+    .searched-recipe {
+        width: 15rem;
+    }
+    .searched {
+        padding: 40px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .searched-recipe {
+        width: 7rem;
+    }
 }

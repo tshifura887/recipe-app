@@ -15,13 +15,7 @@ export default function Searched() {
     },[])
 
     const getSearched = async() => {
-        const response = await fetch(API_URL, {
-            mode: 'no-cors',
-            method: 'get',
-            headers: {
-                'Content-Type': "application/json"
-            }
-        })
+        const response = await fetch(API_URL)
         const data = await response.json();
         setSearchedRecipe(data.hits)
     }

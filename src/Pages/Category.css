@@ -13,8 +13,6 @@
 }
 .categories__recipes-item img {
     max-width: 100%;
-}
-.categories__recipes-item img {
     border-radius: 15px;
 }
 @media only screen and (max-width: 1200px) {
@@ -22,12 +20,15 @@
 @media only screen and (max-width: 992px) {
 }
 @media only screen and (max-width: 768px) {
+    .categories__recipes-item {
+        width: 15rem;
+    }
+    .categories__recipes {
+        padding: 40px;
+    }
 }
 @media only screen and (max-width: 480px) {
     .categories__recipes-item {
         width: 7rem;
-    }
-    .categories__recipes {
-        padding: 40px;
     }
 }

@@ -42,13 +42,20 @@
 @media only screen and (max-width: 992px) {
 }
 @media only screen and (max-width: 768px) {
+    .content__wrapper {
+        margin: 50px;
+    }
+    .content__wrapper .recipes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .recipes-item {
+        width: 7.8rem;
+    }
 }
 @media only screen and (max-width: 480px) {
     .content__wrapper {
         margin: 40px;
-    }
-    .content__wrapper .recipes {
-        flex-wrap: wrap;
     }
     .recipes-item {
         width: 7.8rem;

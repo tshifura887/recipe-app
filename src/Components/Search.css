@@ -1,0 +1,27 @@
+.search {
+    display: flex;
+    margin-right: 80px;
+}
+
+.search__form {
+    position: relative;
+}
+.search__form input {
+    border: none;
+    background: #52ab98;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    height: 20px;
+    width: 200px;
+}
+.search__form svg {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(100%, -50%);
+    color: white;
+}

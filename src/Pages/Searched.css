@@ -1,0 +1,15 @@
+.searched {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.searched-recipe {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+}
+.searched-recipe img {
+    border-radius: 15px;
+}

@@ -1,0 +1,11 @@
+.recipe {
+    display: flex;
+    gap: 30px;
+}
+.recipe__category {
+    
+}
+.recipe__category-item {
+    color: black;
+    text-decoration: none;
+}

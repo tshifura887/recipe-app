@@ -1,0 +1,19 @@
+.categories__recipes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+.categories__recipes-item {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+}
+.categories__recipes-item p {
+    
+}
+.categories__recipes-item img {
+    border-radius: 15px;
+}

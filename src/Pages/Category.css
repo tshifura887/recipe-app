@@ -25,6 +25,9 @@
 }
 @media only screen and (max-width: 480px) {
     .categories__recipes-item {
-        width: 10rem;
+        width: 7rem;
+    }
+    .categories__recipes {
+        padding: 40px;
     }
 }
